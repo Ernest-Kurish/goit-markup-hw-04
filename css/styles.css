@@ -189,6 +189,8 @@ padding-bottom: 0px;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  position: relative;
+
 
   color: var(--title-text-color);
   font-weight: 500;
@@ -270,6 +272,7 @@ padding-bottom: 34px;
 
 .site-nav .current::after {
   display: flex;
+  position: absolute;
   content: "";
   align-items: flex-end;
   left: 0%;
